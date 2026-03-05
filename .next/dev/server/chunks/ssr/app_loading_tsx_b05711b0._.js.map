@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/umbrella/Documents/GitHub/ComingSoonShopMeshtastic/app/loading.tsx"],"sourcesContent":["export default function Loading() {\n  return (\n    <main className=\"min-h-screen flex flex-col items-center justify-center bg-background\">\n      <div className=\"flex flex-col items-center gap-6\">\n        <div\n          className=\"size-10 rounded-full border-2 border-primary border-t-transparent animate-spin\"\n          aria-hidden\n        />\n        <p className=\"text-sm text-muted-foreground animate-pulse\">\n          Загрузка...\n        </p>\n      </div>\n    </main>\n  )\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAK,WAAU;kBACd,cAAA,8OAAC;YAAI,WAAU;;8BACb,8OAAC;oBACC,WAAU;oBACV,aAAW;;;;;;8BAEb,8OAAC;oBAAE,WAAU;8BAA8C;;;;;;;;;;;;;;;;;AAMnE"}}]
+}
