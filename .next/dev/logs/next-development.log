@@ -1,74 +1,140 @@
-[00:00:02.733] Server  LOG     
-[00:00:02.733] Server  LOG       We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:02.733] Server  LOG       The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+[00:00:01.796] Server  LOG     ✓ Ready in 1510ms
+[00:00:14.429] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:14.538] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
-[00:00:02.733] Server  LOG       	- include was updated to add '.next/dev/types/**/*.ts'
-[00:00:02.733] Server  LOG     
-[00:00:02.827] Server  LOG     ✓ Ready in 2.6s
-[00:00:05.964] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:06.697] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:06.697] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:06.697] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772738182059} /_vercel/insights/view
-[00:00:26.908] Server  LOG     ✓ Compiled in 37ms
-[00:00:33.353] Server  LOG     ✓ Compiled in 28ms
-[00:00:52.267] Server  LOG     ✓ Compiled in 23ms
-[00:01:02.977] Server  LOG     ✓ Compiled in 21ms
-[00:01:20.566] Server  LOG     ✓ Compiled in 21ms
-[00:01:23.007] Server  LOG     ✓ Compiled in 23ms
-[00:01:25.130] Server  LOG     ✓ Compiled in 20ms
-[00:01:26.922] Server  LOG     ✓ Compiled in 36ms
-[00:01:34.456] Server  LOG     ✓ Compiled in 19ms
-[00:02:28.732] Server  LOG     ✓ Compiled in 32ms
-[00:02:29.848] Server  LOG     ✓ Compiled in 23ms
-[00:02:40.183] Server  LOG     ✓ Compiled in 32ms
-[00:02:44.446] Server  LOG     ✓ Compiled in 20ms
-[00:02:46.263] Server  LOG     ✓ Compiled in 35ms
-[00:02:49.150] Server  LOG     ✓ Compiled in 22ms
-[00:05:27.696] Server  LOG     ✓ Compiled in 33ms
-[00:05:28.291] Browser ERROR   uncaughtError: ReferenceError: canvasRef is not defined
-[00:05:29.708] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:05:29.757] Server  LOG     ✓ Compiled in 24ms
-[00:05:29.793] Server  ERROR   ⨯ ReferenceError: canvasRef is not defined
-[00:05:29.894] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:30.322] Browser ERROR   uncaughtError: ReferenceError: canvasRef is not defined
-[00:05:37.577] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:05:37.628] Server  LOG     ✓ Compiled in 25ms
-[00:05:37.698] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:38.292] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:05:38.292] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:05:38.292] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772738513188} /_vercel/insights/view
-[00:05:41.429] Server  LOG     ✓ Compiled in 30ms
-[00:05:42.292] Browser ERROR   uncaughtError: TypeError: Failed to construct 'Image': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
-[00:05:45.166] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:05:45.251] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:46.292] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:05:46.292] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:05:46.292] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772738520739} /_vercel/insights/view
-[00:05:54.018] Server  LOG     ✓ Compiled in 27ms
-[00:05:55.446] Server  LOG     ✓ Compiled in 24ms
-[00:06:00.752] Server  LOG     ✓ Compiled in 28ms
-[00:06:04.400] Server  LOG     ✓ Compiled in 24ms
-[00:06:06.926] Server  LOG     ✓ Compiled in 40ms
-[00:06:09.917] Server  LOG     ✓ Compiled in 26ms
-[00:06:11.471] Server  LOG     ✓ Compiled in 26ms
-[00:06:12.504] Server  LOG     ✓ Compiled in 24ms
-[00:06:13.751] Server  LOG     ✓ Compiled in 23ms
-[00:06:35.963] Server  LOG     ✓ Compiled in 25ms
-[00:06:40.141] Server  LOG     ✓ Compiled in 21ms
-[00:08:30.867] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:30.984] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:08:30.984] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:08:30.984] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772738686346} /_vercel/insights/view
-[00:09:22.225] Server  LOG     ✓ Compiled in 347ms
-[00:09:38.883] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:38.997] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:09:38.997] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:09:38.997] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772738754358} /_vercel/insights/view
-[00:09:41.295] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:41.408] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:09:41.408] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:09:41.408] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772738756770} /_vercel/insights/view
-[00:10:20.194] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:21.424] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:10:21.425] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:10:21.425] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772738796772} /_vercel/insights/view
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="ru"
+-                         data-extension-installed=""
+-                         data-extension-id="fakegmdomhmegokfomgmkbopjibonfcp"
+-                         data-extension-version="2.3.0"
+-                         data-extension-manifest-version="3"
+                        >
+                  ...
+
+[00:00:15.252] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:15.252] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:15.252] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1772789109781} /_vercel/insights/view
+[00:00:57.750] Server  LOG     ✓ Compiled in 33ms
+[00:01:07.289] Server  LOG     ✓ Compiled in 28ms
+[00:01:21.676] Server  LOG     ✓ Compiled in 63ms
+[00:01:21.709] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true с с true с
+[00:01:22.810] Server  LOG     ✓ Compiled in 28ms
+[00:01:27.122] Server  LOG     ✓ Compiled in 24ms
+[00:01:31.871] Server  LOG     ✓ Compiled in 23ms
+[00:01:31.932] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true cla cla true cla
+[00:01:33.760] Server  LOG     ✓ Compiled in 37ms
+[00:01:35.617] Server  LOG     ✓ Compiled in 22ms
+[00:01:39.315] Server  LOG     ✓ Compiled in 48ms
+[00:01:45.840] Server  LOG     ✓ Compiled in 25ms
+[00:01:49.271] Server  LOG     ✓ Compiled in 27ms
+[00:01:51.931] Server  LOG     ✓ Compiled in 51ms
+[00:02:01.378] Server  LOG     ✓ Compiled in 30ms
+[00:02:01.435] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true clas clas true clas
+[00:02:04.726] Server  LOG     ✓ Compiled in 26ms
+[00:02:42.058] Server  LOG     ✓ Compiled in 51ms
+[00:02:42.162] Browser ERROR   ./components/qr-code-block.tsx:19:9
+Parsing ecmascript source code failed
+  17 |         <Image src="./qr-code-ozon.png" alt="QR-код" width={size} height={size} />
+  18 |         <
+> 19 |         <Image src="./qr-code-ozon.png" alt="QR-код" width={size} height={size} />
+     |         ^
+  20 |       </div>
+  21 |       <span className="text-sm text-muted-foreground">
+  22 |         Наведите камеру на QR-код
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/qr-code-block.tsx [Client Component Browser]
+    ./components/coming-soon-content.tsx [Client Component Browser]
+    ./components/coming-soon-content.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/qr-code-block.tsx [Client Component SSR]
+    ./components/coming-soon-content.tsx [Client Component SSR]
+    ./components/coming-soon-content.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:02:52.019] Server  LOG     ✓ Compiled in 23ms
+[00:02:52.122] Browser ERROR   ./components/qr-code-block.tsx:19:9
+Parsing ecmascript source code failed
+  17 |         <Image src="./qr-code-ozon.png" alt="QR-код" width={size} height={size} />
+  18 |         <
+> 19 |         <Image src="./qr-code-ozon.png" alt="QR-код" width={size} height={size} />
+     |         ^
+  20 |       </div>
+  21 |       <span className="text-sm text-muted-foreground">
+  22 |         Наведите камеру на QR-код
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/qr-code-block.tsx [Client Component Browser]
+    ./components/coming-soon-content.tsx [Client Component Browser]
+    ./components/coming-soon-content.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/qr-code-block.tsx [Client Component SSR]
+    ./components/coming-soon-content.tsx [Client Component SSR]
+    ./components/coming-soon-content.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+[00:03:00.661] Server  LOG     ✓ Compiled in 20ms
+[00:03:56.808] Server  LOG     ✓ Compiled in 28ms
+[00:03:58.989] Server  LOG     ✓ Compiled in 41ms
+[00:04:37.533] Server  LOG     ✓ Compiled in 27ms
+[00:04:43.394] Server  LOG     ✓ Compiled in 26ms
+[00:04:56.291] Server  LOG     ✓ Compiled in 26ms
+[00:04:58.826] Server  LOG     ✓ Compiled in 22ms
+[00:05:01.402] Server  LOG     ✓ Compiled in 36ms
+[00:05:01.450] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:05:01.450] Browser ERROR   Image is missing required "src" property: <img>
+[00:05:07.847] Server  LOG     ✓ Compiled in 28ms
+[00:05:13.641] Server  LOG     ✓ Compiled in 21ms
+[00:05:17.202] Server  LOG     ✓ Compiled in 23ms
+[00:05:31.715] Server  LOG     ✓ Compiled in 22ms
+[00:05:44.950] Server  LOG     ✓ Compiled in 32ms
+[00:06:02.230] Server  LOG     ✓ Compiled in 28ms
+[00:06:06.459] Server  LOG     ✓ Compiled in 24ms
+[00:06:15.677] Server  LOG     ✓ Compiled in 22ms
+[00:06:18.416] Server  LOG     ✓ Compiled in 33ms
+[00:07:09.395] Server  LOG     ✓ Compiled in 25ms
+[00:07:18.898] Server  LOG     ✓ Compiled in 28ms
+[00:11:53.212] Server  LOG     ✓ Compiled in 39ms
+[00:11:53.508] Browser WARN    Image with src "http://localhost:3000/qr-code-tg.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:15:26.117] Server  LOG     ✓ Compiled in 104ms

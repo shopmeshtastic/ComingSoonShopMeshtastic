@@ -7,14 +7,15 @@ import Image from "next/image"
 
 interface QrCodeBlockProps {
   url: string
+  imgSrc: string
   size?: number
 }
 
-export function QrCodeBlock({ url, size = 180 }: QrCodeBlockProps) {
+export function QrCodeBlock({ url, imgSrc, size = 180 }: QrCodeBlockProps) {
   return (
     <div className="flex flex-col items-center gap-4">
       <div className="p-4 bg-foreground rounded-2xl shadow-lg">
-        <Image src="./qr-code-ozon.png" alt="QR-код" width={size} height={size} />
+        <Image src={imgSrc} alt="QR-код" width={size} height={size} />
       </div>
       <span className="text-sm text-muted-foreground">
         Наведите камеру на QR-код

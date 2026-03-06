@@ -3,7 +3,7 @@
 import { Logo } from "@/components/logo"
 import { CountdownTimer } from "@/components/countdown-timer"
 import { QrCodeBlock } from "@/components/qr-code-block"
-import { ShoppingCart } from "lucide-react"
+import { ShoppingCart, Send } from "lucide-react"
 
 // Фиксированная дата — таймер не сбрасывается при перезагрузке
 const TARGET_DATE = new Date("2026-05-10T00:00:00")
@@ -46,8 +46,8 @@ export function ComingSoonContent() {
 
           {/* QR + CTA section */}
           <div className="flex flex-col md:flex-row items-center gap-8 mt-4">
-              <QrCodeBlock url="https://ozon.ru/s/shopmeshtastic" size={160} />
-
+              <QrCodeBlock imgSrc="/qr-code-ozon.png" url="https://ozon.ru/s/shopmeshtastic" size={160} />
+              
             <div className="flex flex-col items-center md:items-start gap-4">
               <p className="text-sm text-muted-foreground max-w-xs text-center md:text-left leading-relaxed">
                 Отсканируйте QR-код или нажмите кнопку ниже, чтобы перейти к нашим товарам на OZON
@@ -60,6 +60,25 @@ export function ComingSoonContent() {
               >
                 <ShoppingCart className="w-4 h-4" />
                 Перейти на OZON
+              </a>
+            </div>
+          </div>
+                    {/* QR + CTA section */}
+                    <div className="flex flex-col md:flex-row items-center gap-8 mt-4">
+              <QrCodeBlock imgSrc="/qr-code-tg.png" url="https://t.me/shopmeshtastic" size={160} />
+              
+            <div className="flex flex-col items-center md:items-start gap-4">
+              <p className="text-sm text-muted-foreground max-w-xs text-center md:text-left leading-relaxed">
+                Отсканируйте QR-код или нажмите кнопку ниже, чтобы перейти в наш канал в Telegram
+              </p>
+              <a
+                href="https://t.me/shopmeshtastic"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-primary-foreground font-semibold text-sm hover:opacity-90 transition-opacity"
+              >
+                <Send className="w-4 h-4" />
+                Перейти в Telegram
               </a>
             </div>
           </div>
